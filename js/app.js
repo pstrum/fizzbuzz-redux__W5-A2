@@ -23,13 +23,6 @@ var FizzBuzz = (function () {
     // Set up a variable to store the input values
     var valArray;
 
-    // var appendNode = function (node, text) {
-    //   var createList = document.createElement(node);
-    //   var listText = document.createTextNode(text);
-    //   var listExport = createList.appendChild(listText);
-    //   return listExport;
-    // };
-
   };
 
   _fizzBuzz.prototype = { // define fizzBuzz methods
