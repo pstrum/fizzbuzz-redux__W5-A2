@@ -23,12 +23,12 @@ var FizzBuzz = (function () {
     // Set up a variable to store the input values
     var valArray;
 
-    var appendNode = function (node, text) {
-      var createList = document.createElement(node);
-      var listText = document.createTextNode(text);
-      var listExport = createList.appendChild(listText);
-      return listExport;
-    };
+    // var appendNode = function (node, text) {
+    //   var createList = document.createElement(node);
+    //   var listText = document.createTextNode(text);
+    //   var listExport = createList.appendChild(listText);
+    //   return listExport;
+    // };
 
   };
 
@@ -85,7 +85,6 @@ var FizzBuzz = (function () {
 }());
 
 var myFizzy = new FizzBuzz();
-
 var button = document.getElementById("submitBuzz");
 
 button.addEventListener("click", function (e) {
